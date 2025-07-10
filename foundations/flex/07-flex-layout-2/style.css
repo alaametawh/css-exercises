@@ -26,4 +26,54 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 300px;
+  padding: 15px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  padding-left: 15px;
+  font-weight: bolder;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  height:100vh;
+  border: 3px solid;
+  justify-content: space-between;
+}
+.middle{
+  display: flex;
+  flex: 1;
+}
+
+.sidebar{
+  display: flex;
+  flex: 0 0 auto;
+  padding: 15px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  gap: 30px;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li a{
+  color: white;
+  text-decoration: none;
+  font-size: 23px;
+}
+li{
+  margin-bottom: 15px;
 }
